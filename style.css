@@ -7,8 +7,9 @@
 body{
     background-color: #EAEAEA;
     font-family: 'Roboto', sans-serif;
-    margin: 5rem 25rem;
     line-height: 2.5rem;
+    width:98vw;
+    height:100vh;
 }
 h1, h3{
     text-align: center;
@@ -32,13 +33,13 @@ figcaption{
     text-align: right;
 }
 .container{
+    margin:5rem;
     padding: 2.5rem;
     border-radius: 0.62rem;
     background-color: #FFFFFF;
 }
 
 footer {
-    margin-top:1.87rem;
     text-align:center;
 }
  ul,li {
