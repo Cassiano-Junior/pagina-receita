@@ -34,6 +34,7 @@ figcaption{
 }
 .container{
     margin:5rem;
+    margin-bottom:0;
     padding: 2.5rem;
     border-radius: 0.62rem;
     background-color: #FFFFFF;
