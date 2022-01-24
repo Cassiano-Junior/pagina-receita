@@ -8,10 +8,12 @@ body{
     background-color: #EAEAEA;
     font-family: 'Roboto', sans-serif;
     line-height: 2.5rem;
-    width:98vw;
-    height:100vh;
+    height:100%;
+    display: grid;
+    place-items: center;
 }
 h1, h3{
+    font-size: 1.5rem;
     text-align: center;
     color: #1B1B1B;
 }
@@ -33,17 +35,24 @@ figcaption{
     text-align: right;
 }
 .container{
-    margin:5rem;
+    margin:2rem;
     margin-bottom:0;
     padding: 2.5rem;
     border-radius: 0.62rem;
     background-color: #FFFFFF;
+    max-width: 250px;
+    
 }
 
 footer {
     text-align:center;
 }
  ul,li {
+     font-size: 0.75rem;
      color: #39393A;
      list-style-position: inside;
+ }
+
+ p {
+    font-size: 0.75rem;
  }
